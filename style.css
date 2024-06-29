@@ -205,6 +205,20 @@ section.categories{
 .content-categories #grid6 img{
     filter: drop-shadow(16px 16px 30px rgb(212, 119, 119)) invert(5%);
 }
+.content-categories .box img:hover{
+    filter: drop-shadow(0 0 0.3em #80cef0);
+    transform: scale(1.3);
+    transition: ease-in-out .3s;
+    cursor: zoom-in;
+}
+.contents button:hover,.head-categorie a:hover{
+    color: white;
+    background-color: #65b4d8;
+}
+.contents-left li:hover,.btn-sect-left li:hover{
+    filter: drop-shadow(0 0 0.3em #80cef0);
+}
+
 
 /* responsive */
 @media screen and (max-width:1250px) {
